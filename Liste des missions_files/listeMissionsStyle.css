@@ -1,0 +1,188 @@
+.mission {
+    margin-top: 30px;
+    border: 1px solid #dce3e6;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
+    background-color: #fff;
+    position: relative;
+    cursor: pointer;
+    width: 85%;
+}
+
+.mission:hover{
+    border: 1px solid #00A4DD;
+}
+#body_page {
+    padding-bottom: 45px;
+}
+.nom-mission {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.background-secteur {
+    content: '';
+    display: inline-block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 5px 5px 0px 0px;
+    position: relative;
+    overflow: hidden;
+}
+
+.background-secteur.habitat {
+    background-image: url('/web/inc/listemissions/img/habitat.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.couleur-background {
+    padding: 30px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #455a64;
+    border-radius: 5px 5px 0px 0px;
+    background: linear-gradient(#ffffffb3, #fff);
+}
+
+
+
+
+.categorie-mission {
+    top: 24px;
+    right: -103px;
+    left: auto;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    position: absolute;
+    width: 300px;
+    position: absolute;
+    text-align: center;
+    line-height: 40px;
+    letter-spacing: 1px;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.categorie-mission.ao {
+    background-color: #00A4DD;
+    color: white;
+}
+
+.categorie-mission.mp {
+    background-color: #2A8F27;
+    color: white;
+    top: 30px;
+}
+
+.mission .row {
+    padding-top: 0px !important;
+}
+
+.debut-contenu-mission {
+    padding: 0 30px;
+}
+
+.rounded-circle {
+    color: red;
+    margin-bottom: 4px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.mission .rounded-circle { /*POUR AFFICHEER LE LOGO DE IACC DAND SERVICE*/
+    width: 80px; 
+    border: 2px solid #ddd;
+    position: absolute;
+    top: -20%;
+}
+.langue {
+    display: inline-block;
+    width: 1.5em;
+    position: relative;
+    left: 6px;
+    bottom: 2px;
+}
+
+.nom-do {
+    display: inline-block;
+    position: absolute;
+    bottom: -15px;
+    width: 80px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+p {
+    margin-bottom: 5px;
+}
+
+.debut-contenu-mission {
+    margin-top: 24px;
+}
+
+blockquote {
+    display: block;
+    padding: 15px 0px 0px 45px !important;
+    position: relative;
+    border-radius: 4px;
+    font-size: 1.2em;
+    font-style: italic;
+    margin: 10px 0;
+}
+
+blockquote::before {
+    content: "\201C";
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    left: 10px;
+    top: 0;
+    color: #00A4DD;
+}
+
+.label-icon {
+    display: inline-block;
+    margin-right: 15px;
+    position: relative;
+    bottom: 2px;
+}
+
+.secteur-mission .mdi {
+    font-size: 1.2em;
+}
+
+.label-icon i {
+    font-size: 0.85em;
+    color: #818181;
+}
+
+.debut-contenu-mission {
+    padding-right: 20px !important;
+}
+
+blockquote {
+    border-left: none;
+}
+
+.mission > .row {
+    width: 100%;
+    left: 15px;
+    position: relative;
+}
+
+
+
+
+
+
